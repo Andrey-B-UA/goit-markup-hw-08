@@ -1,0 +1,68 @@
+/* Socials */
+.footer__call {
+	color: var(--color-background);
+	background-color: var(--section-background);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.17;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 0.03em;
+}
+
+.footer__socials {
+	margin-left: 70px;
+}
+
+.footer__lists {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer--link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	fill: var(--color-background);
+	background-color: var(--social-icon-background);
+	border-radius: 50%;
+	transition: background-color 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer--link:hover,
+.footer--link:focus {
+	background-color: var(--color-link);
+	fill: var(--color-background);
+}
+
+.hero-portfolio {
+	font-weight: 400;
+	font-size: 16px;
+	background-color: var(--color-background);
+	color: var(--color-secondary);
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+	font-size: 18px;
+	background-color: var(--color-background);
+	color: var(--color-primary);
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.ul-button {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	gap: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}

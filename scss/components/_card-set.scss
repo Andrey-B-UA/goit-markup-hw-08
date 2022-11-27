@@ -1,0 +1,75 @@
+/* CARD-SET */
+
+.card-set {
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.card {
+	display: block;
+	text-decoration: none;
+	transition: color 250ms, fill 250ms, background-color 250ms, box-shadow 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: hidden;
+}
+
+.card:hover .card-description,
+.card:focus .card-description {
+	transform: translateY(0);
+}
+
+.card:hover,
+.card:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+		1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-heading {
+	font-size: 18px;
+	background-color: var(--color-background);
+	color: var(--color-primary);
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	margin-bottom: 4px;
+}
+
+.card-text {
+	color: var(--color-secondary);
+}
+
+.card-insert {
+	position: relative;
+	overflow: hidden;
+}
+
+.card-content {
+	padding: 20px 24px;
+	border: 1px solid #eeeeee;
+	border-top: 0px;
+}
+
+.card-description {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 63px 24px;
+	color: var(--color-background);
+	background-color: rgba(33, 150, 243, 0.9);
+	transform: translateY(101%);
+	transition: transform 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-description:focus,
+.card-description:hover {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+		1px 4px 6px rgba(0, 0, 0, 0.16);
+}

@@ -1,0 +1,59 @@
+/* Form */
+
+.form-label {
+	display: block;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.01em;
+	color: var(--color-secondary);
+	margin-bottom: 4px;
+}
+
+.form-control {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.form-input {
+	width: 100%;
+	padding: 12px 12px 12px 32px;
+	border: 1px solid var(--input-border);
+	border-radius: 4px;
+	outline: none;
+	fill: var(--color-primary);
+}
+
+.form-input:focus {
+	border-color: var(--color-link);
+	transition: border-color 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 12px;
+}
+
+.form-control:focus-within .form-icon {
+	fill: var(--color-link);
+	transition: fill 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid var(--input-border);
+	border-radius: 4px;
+	outline: none;
+	height: 120px;
+	resize: none;
+}
+
+.form-textarea:focus {
+	border-color: var(--color-link);
+	transition: border-color 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
