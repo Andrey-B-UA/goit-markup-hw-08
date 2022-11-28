@@ -7,11 +7,16 @@
 	position: relative;
 	padding-left: 24px;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 00.03em;
-	line-height: 1.71;
+	line-height: 1.17;
 	color: var(--color-secondary);
 	text-align: center;
+
+	@media screen and(min-width:1200px) {
+		font-size: 14px;
+		line-height: 1.71;
+	}
 }
 
 .checkbox-label::before {
