@@ -7,10 +7,15 @@
 	font-weight: 700;
 	letter-spacing: 0.06em;
 	cursor: pointer;
-	padding: 10px 32px;
+	padding: 10px 24px;
 	border-radius: 4px;
 	transition: color 250ms, fill 250ms, background-color 250ms, box-shadow 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	@media screen and(min-width:1200px) {
+		padding: 10px 32px;
+
+	}
 }
 
 .primary-button {
