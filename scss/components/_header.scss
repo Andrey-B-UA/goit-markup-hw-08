@@ -40,7 +40,10 @@
 	flex-shrink: 0;
 
 	@media screen and(min-width: 768px) {
-		display: inline-block;
+		margin-top: auto;
+		margin-bottom: auto;
+		display: block;
+		align-items: center;
 	}
 
 	@media screen and(min-width: 1200px) {
@@ -75,7 +78,7 @@
 		line-height: 1.17;
 		padding-top: 16px;
 		padding-bottom: 16px;
-		padding-left: 15px;
+		// padding-left: 15px;
 	}
 }
 

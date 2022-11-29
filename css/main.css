@@ -692,7 +692,7 @@ ul {
 
 /* CONTAINER */
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -861,7 +861,12 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .header-menu2 {
-    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -904,7 +909,6 @@ ul {
     line-height: 1.17;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-left: 15px;
   }
 }
 
