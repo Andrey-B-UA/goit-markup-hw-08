@@ -71,6 +71,7 @@ ul {
 
 .advantages__container {
   max-width: 450px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .advantages__container {
@@ -80,6 +81,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .advantages__container {
     max-width: 1170px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1435,11 +1437,19 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 30px;
+}
+@media screen and (min-width: 1200) {
+  .team__lists {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .team__item {
