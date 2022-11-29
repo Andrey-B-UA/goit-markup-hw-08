@@ -85,6 +85,8 @@ ul {
 
 .advantages__list {
   display: block;
+  padding-left: auto;
+  padding-right: auto;
 }
 @media screen and (min-width: 768px) {
   .advantages__list {
@@ -95,8 +97,6 @@ ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-left: auto;
-    padding-right: auto;
   }
 }
 
