@@ -28,6 +28,7 @@
 
 	@media screen and(min-width:768px) {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 30px;
 		justify-content: space-between;
 	}
@@ -39,7 +40,17 @@
 	}
 }
 
-// .advantages__item {}
+.advantages__item {
+	width: 100%;
+
+	@media screen and(min-width:768px) {
+		max-width: 354px;
+	}
+
+	@media screen and(min-width:1200px) {
+		max-width: 270px;
+	}
+}
 
 .advantages__img {
 	display: flex;
