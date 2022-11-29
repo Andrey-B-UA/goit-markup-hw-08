@@ -77,7 +77,7 @@ ul {
     width: 738px;
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .advantages__container {
     width: 1170px;
   }
