@@ -1,14 +1,25 @@
 /* Email-input */
 .email__input {
 	display: block;
-	margin-left: 93px;
-	width: 570px;
-	height: 86px;
+
+
 	background-color: var(--section-background);
 	padding: 0px;
+	padding-top: 60px;
+
+	@media screen and(min-width:1200px) {
+		margin-left: 93px;
+		padding-top: 0px;
+		width: 570px;
+		height: 86px;
+
+	}
 }
 
 .input__text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-bottom: 20px;
 	font-weight: 700;
 	font-size: 14px;
@@ -17,16 +28,31 @@
 	text-align: left;
 	text-transform: uppercase;
 	color: var(--color-background);
+
+	@media screen and(min-width:1200px) {
+		justify-content: left;
+
+	}
 }
 
 /* Form-email */
 .footer-label {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+
+
 }
 
 .contact-form {
-	display: flex;
+	display: block;
+
+
+
+
+	@media screen and(min-width:1200px) {
+		display: flex;
+
+	}
 }
 
 .form-email-label {
@@ -39,7 +65,7 @@
 }
 
 .form-email-input {
-	width: 358px;
+	width: 450px;
 	height: 50px;
 	padding: 16px 15px;
 	border: 1px solid var(--footer-input-border);
@@ -47,6 +73,11 @@
 	outline: none;
 	fill: var(--color-primary);
 	background-color: var(--section-background);
+
+	@media screen and(min-width:1200px) {
+		width: 358px;
+
+	}
 }
 
 .form-footer-icon {
@@ -60,9 +91,18 @@
 
 .form-footer-button {
 	display: flex;
-	margin-left: 12px;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: auto;
 	margin-right: auto;
 	width: 200px;
 	height: 50px;
-	padding: 10px 28px;
+
+
+	@media screen and(min-width:1200px) {
+		padding: 10px 28px;
+		margin-left: 12px;
+		margin-top: 0;
+
+	}
 }

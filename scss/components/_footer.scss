@@ -9,8 +9,18 @@
 }
 
 .footer .container {
-	display: flex;
+	display: block;
 	align-items: baseline;
+
+	@media screen and(min-width:768px) {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	@media screen and(min-width:1200px) {
+		flex-wrap: nowrap;
+	}
 }
 
 .footer__title {
@@ -23,6 +33,10 @@
 	text-decoration: none;
 	line-height: 1.17;
 	margin-bottom: 20px;
+
+	@media screen and(max-width:1200px) {
+		justify-content: center;
+	}
 }
 
 .studio2 {
@@ -30,7 +44,13 @@
 }
 
 .footer__address {
-	margin-bottom: 9px;
+	margin-bottom: 8px;
+
+	@media screen and(max-width:1200px) {
+		display: flex;
+		justify-content: center;
+
+	}
 }
 
 .link__footer {
