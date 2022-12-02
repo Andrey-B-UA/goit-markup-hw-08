@@ -1,8 +1,10 @@
 /* regular-customers */
 
 .customers-container {
-	max-width: 480px;
+	max-width: 450px;
 	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
 
 	@media screen and(min-width:768px) {
 		max-width: 738px;
@@ -11,8 +13,6 @@
 	@media screen and(min-width:1200px) {
 		max-width: 1170px;
 		margin-bottom: 0px;
-		padding-left: 0;
-		padding-right: 0;
 	}
 }
 
@@ -59,20 +59,19 @@
 	padding-right: auto;
 	gap: 30px;
 	border: inherit;
-	// width: 450px;
+	width: 450px;
+	max-width: 100%;
 
 
-	// @media screen and(max-width:768px) {
-	// 	width: 450px;
-	// }
 
-	// @media screen and(min-width:768px) {
-	// 	width: 738px;
-	// }
 
-	// @media screen and(min-width:1200px) {
-	// 	width: 1170px;
-	// }
+	@media screen and(min-width:768px) {
+		width: 738px;
+	}
+
+	@media screen and(min-width:1200px) {
+		width: 1170px;
+	}
 }
 
 .customers__cards {
