@@ -23,6 +23,16 @@
 	}
 }
 
+.footer__address-container {
+	margin-left: auto;
+
+	@media screen and(min-width:480px),
+	(max-width:1199px) {
+		padding-left: auto;
+	}
+}
+
+
 .footer__title {
 	display: flex;
 	font-size: 26px;
@@ -34,7 +44,7 @@
 	line-height: 1.17;
 	margin-bottom: 20px;
 
-	@media screen and(max-width:1200px) {
+	@media screen and(max-width:1199px) {
 		justify-content: center;
 	}
 }
@@ -46,7 +56,7 @@
 .footer__address {
 	margin-bottom: 8px;
 
-	@media screen and(max-width:1200px) {
+	@media screen and(max-width:1199px) {
 		display: flex;
 		justify-content: center;
 
