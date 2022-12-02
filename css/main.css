@@ -845,8 +845,21 @@ ul {
 
 /* regular-customers */
 .customers-container {
-  min-width: 480px;
+  max-width: 480px;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .customers-container {
+    max-width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers-container {
+    max-width: 1170px;
+    margin-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .customers__list-item {
