@@ -37,11 +37,13 @@
 }
 
 .mobile-menu__nav {
-	display: inline-grid;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .nav__menu {
-	display: inline-grid;
+	display: flex;
+	flex-direction: column;
 	gap: 32px;
 }
 
@@ -98,9 +100,12 @@
 }
 
 .nav__menu2 {
-	display: inline-grid;
+	display: flex;
+	flex-wrap: wrap;
 	gap: 32px;
-	padding-top: 302px;
+	flex-grow: 1;
+	margin-top: auto;
+
 }
 
 
