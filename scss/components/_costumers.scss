@@ -1,23 +1,23 @@
 /* regular-customers */
 
 .customers-container {
-	max-width: 450px;
+	max-width: 480px;
 	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 15px;
+	padding-right: 15px;
 
 	@media screen and(min-width:768px) {
-		max-width: 738px;
+		max-width: 768px;
 	}
 
 	@media screen and(min-width:1200px) {
-		max-width: 1170px;
+		max-width: 1200px;
 		margin-bottom: 0px;
 	}
 }
 
 .customers__list-item {
-	width: 210px;
+	width: calc((100% - 30px) / 2);
 
 
 	@media screen and(min-width:768px) {
