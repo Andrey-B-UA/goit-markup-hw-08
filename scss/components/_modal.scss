@@ -11,7 +11,7 @@
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 	// @media screen and(max-width:1199px) {
-	// 	overflow-y: scroll;
+	overflow-y: scroll;
 	// }
 }
 
@@ -37,12 +37,12 @@
 
 .modal {
 	position: absolute;
-	top: 50%;
+	top: 30px;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%);
 	width: 100%;
-	max-height: 609px;
-	height: 100%;
+	// max-height: 609px;
+	// height: 100%;
 	background-color: var(--color-background);
 	// overflow: hidden;
 	overflow: auto;

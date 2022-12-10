@@ -1479,6 +1479,7 @@ ul {
   transition: opacity 250ms, visibility 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: scroll;
 }
 
 .is-hidden {
@@ -1503,13 +1504,11 @@ ul {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 30px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   width: 100%;
-  max-height: 609px;
-  height: 100%;
   background-color: var(--color-background);
   overflow: auto;
   padding: 40px;
